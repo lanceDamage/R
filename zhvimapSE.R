@@ -61,7 +61,7 @@ ggplot(choropleth, aes(long, lat, group=group), environment = environment())+
                       breaks=c(300000,800000,1200000),
                       label = comma)+
  
-#this provides an overlay of certain counties 
+#this provides an overlay of certain counties of interest to me
   geom_polygon(data = countyCoastSurf_df, aes(long, lat,group=group), fill='#66ff66', colour= (alpha=1))+
   
 #I can't get the following points to also show up on this map.
