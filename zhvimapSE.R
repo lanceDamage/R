@@ -25,7 +25,7 @@ zchomes <- read.csv("http://files.zillowstatic.com/research/public/County/County
 county_df <- map_data("county")
 state_df <- map_data("state")
 
-#converting factors
+#creating a data frame of buoys I'd like to plot. Also tring to convert factors which I hope will avert errors I'm getting below.
 buoyID.factor <- factor(c(41110,44096))
 index.factor <- factor(c(2713480,2791621))
 lat.factor <- factor(c(34.141,37.023))
