@@ -7,3 +7,5 @@ So far, I've hit a roadblock. (Here's the wiki: https://github.com/lanceDamage/R
 
 The code is found here.
 
+My second attempts at R revovle around my PhD studies (after 6/7/2023).
+There are a couple files here that help me read in PDF files in a directory, convert them into text, and then create a word cloud.
